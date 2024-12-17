@@ -82,7 +82,7 @@ Cada reto tiene instrucciones claras y progresivas para ayudarte a completar el 
 
 ## Solución Final
 La solución completa estará disponible en el siguiente repositorio:
-[**Repositorio de la Solución**]([https://github.com/AndresEstebanPatino/escaperoom-java-solution](https://github.com/AndresEstebanPatino/escaperoom-java-solution))
+**Repositorio de la solución**([[https://github.com/AndresEstebanPatino/escaperoom-java-solution](https://github.com/AndresEstebanPatino/escaperoom-java-solution/edit/main/README.md))
 
 ---
 
