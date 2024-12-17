@@ -13,7 +13,7 @@ Este repositorio contiene un entorno preparado para que los participantes desarr
 1. **Reto 1:** Configura el servicio de correo electrónico para enviar el primer mensaje.
 2. **Reto 2:** Conéctate a la base de datos para habilitar la persistencia de datos.
 3. **Reto 3:** Implementa un CRUD para gestionar mensajes secretos.
-4. **Reto 4:** Crea un sistema para gestionar agentes y asignarlos a misiones.
+4. **Reto 4:** Crea un sistema para gestionar agentes.
 5. **Reto 5:** Diseña y administra misiones críticas.
 6. **Reto 6:** Asigna agentes a las misiones (relación muchos a muchos).
 
