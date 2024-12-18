@@ -14,8 +14,16 @@ public class MailTestController {
         this.escapeRoomMailService = escapeRoomMailService;
     }
 
-    public void sendTestMail(){
-        //Implementar lógica
-        escapeRoomMailService.sendMailForChallenge("reto1");
+    @GetMapping
+    public ResponseEntity<String> sendTestMail(){
+        try{
+            escapeRoomMailService.sendMailForChallenge("reto1");
+
+            return ResponseEntity.ok("Correo enviado con éxito. Reto 1 completado. Pistas del reto 2 enviadas");
+        } catch (Exception e){
+
+            e.printStackTrace();
+            return ResponseEntity.status(500).body("Error al enviar correo " + e.getMessage());
+        }
     }
 }
